@@ -34,7 +34,7 @@ If this program needed to support multiple events at each location, I might cons
 
 I suppose I've already done this, but if I were working with a much larger world size, I would make sure to keep track of the minimum price of each event as the data is being pulled in, rather than iterating through the list of prices during the search to find the lowest price. If the prices are volatile and the minimum price can disappear, I might keep the ticket prices in a sorted data structure (such as a heap) so that even if the minimum is removed, we can still access the new minimum price efficiently.
 
-A larger world size would also obviously require an updated user interface with zooming and panning so that users may view the map at the location and size they desire.
+A larger world size would also obviously require an updated user interface with zooming and panning so that users may view the map at the location and size they desire. I would also change my program to have a significant back-end code base, and I might load parts of the map dynamically to the client-side depending on the user's zoom level so that not all of an enormous map is being loaded in at once.
 
 
 
