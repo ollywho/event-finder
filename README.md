@@ -8,7 +8,7 @@ Overview
 --------
 This is a web app which generates a random world (represented by a 2d array), in which some cells have events, each event having at least 0 tickets available, and each ticket having a non-zero price. The app takes in a user-specified pair of coordinates and finds the five closest events, along with the cheapest ticket price for each event.
 
-To run
+To Run
 ------
 To run, simply run "npm start" from the root directory and then go to localhost:3000 in your browser.
 
